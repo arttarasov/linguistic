@@ -7,5 +7,6 @@ namespace Linguistic
 {
     public class Class1
     {
+
     }
 }
