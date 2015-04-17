@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linguistic", "Linguistic\Linguistic.csproj", "{54D7A6FA-56D4-4EA5-88CF-87303E4100F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{07540871-460D-41C0-9963-1DF884E3F2C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{54D7A6FA-56D4-4EA5-88CF-87303E4100F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54D7A6FA-56D4-4EA5-88CF-87303E4100F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54D7A6FA-56D4-4EA5-88CF-87303E4100F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07540871-460D-41C0-9963-1DF884E3F2C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07540871-460D-41C0-9963-1DF884E3F2C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07540871-460D-41C0-9963-1DF884E3F2C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07540871-460D-41C0-9963-1DF884E3F2C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
