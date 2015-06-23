@@ -25,7 +25,7 @@ namespace Tests
                                        new string[] { "следователей", "следовател" },
                                    };
             foreach(var pair in wordsPair)
-                Assert.AreEqual(pair[1], Porter.Stem(pair[0]));
+                Assert.AreEqual(pair[1], Porter.Stemm(pair[0]));
         }
 
         /// <summary>
@@ -43,7 +43,7 @@ namespace Tests
                         return new { Word = split[0], Stem = split[1] };
                     });
             foreach (var pair in dict)
-                Assert.AreEqual(pair.Stem, Porter.Stem(pair.Word));
+                Assert.AreEqual(pair.Stem, Porter.Stemm(pair.Word));
         }
     }
 }
